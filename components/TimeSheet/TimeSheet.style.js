@@ -15,24 +15,13 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     paddingRight: 10
   },
-  logo: {
-    width: "70%",
-    maxWidth: 500,
-    maxHeight: 500
-  },
-  searchBtn: {
-    width: 150,
-    height: 30,
-    backgroundColor: COLORS.blueLogin,
-    borderRadius: SIZES.medium,
-    justifyContent: "center",
-    alignItems: "center",
-    textShadowColor: "white",
-    padding:15,
+  title: {
+    fontSize: 24,
     fontWeight: 'bold',
-    color: 'white'
-
+    color: "#051C60",
+    margin: 10,
   }
+  
 });
 
 export default styles;

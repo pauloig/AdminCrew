@@ -11,7 +11,7 @@ import {
 import { useRouter } from 'expo-router';
 
 
-import styles from './SignIn.style';
+import styles from './Home.style';
 import { icons, SIZES } from '../../constants';
 import Logo from '../../assets/images/control-job.jpg'
 import CustomInput from '../CustomInput/CustomInput';
@@ -19,33 +19,25 @@ import CustomButton from '../CustomButton/CustomButton';
 import { useAnimatedGestureHandler } from 'react-native-reanimated';
 
 
-const SignIn = ( ) => {
+const Home = ( ) => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
   const {height} = useWindowDimensions();
 
   const onSignInPressed = ()=>{
-    console.warn("Sign In");
-    console.log("Sign In");
     alert("Sign In");
   };
 
   const onForgotPasswordPressed = ()=>{
-    console.warn("forgot Password");
-    console.log("forgot Password");
     alert("forgot Password");
   };
 
   const onSignInFacebook = ()=>{
-    console.warn("forgot Password");
-    console.log("forgot Password");
     alert("Facebook");
   };
 
   const onSignInGoogle = ()=>{
-    console.warn("forgot Password");
-    console.log("forgot Password");
     alert("Google");
   };
 
@@ -112,4 +104,4 @@ const SignIn = ( ) => {
   )
 }
 
-export default SignIn
+export default Home
